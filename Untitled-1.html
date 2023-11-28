@@ -7,7 +7,10 @@ alert('EA Sports... to the GAME!!')
 <p>this is Elon Musk... do you know da wae?... EEEEEEEEEEEEEEEEEEEEEEEEEEE  EEEEEEEEEEEEEEEEEEEEEEEEEEEEE... EEEEEEEEEEEEEEEEEEEEEE  EEEEEEEEEEEEEEEEEEEEEEEEE  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE... EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE  EEEEEEEEEEEEEEEEEEEEEEEE... EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE  EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE... EEEEEEEEEEEEEEEEEEEEEEEEEEEEEE... E</p>
 <style>
     p {
+        background-image: url('e9a1fc94f3b36348ba98e550bdf4a207.jpg');
         color:  red;
+        display: block;
+        height: 100%;
     }
     div#one {
         width: 80px;
@@ -29,50 +32,62 @@ alert('EA Sports... to the GAME!!')
     div#two {
         width: 100px;
   height: 100px;
-  background-color: rgb(from color r g b);
-  position: relative;
+  position: absolute;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-direction: normal;
-    }
+  background-size: contain;
+  border:25px solid red;
+  background-image: url('ab67616d0000b273ab3622d5c86f24cf13d59353.jpeg');
+  padding: 10px;
+  color: #000000;
+      }
 @keyframes example {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:100px; top:0px;}
-  50%  {background-color:blue; left:2000px; top:2500px;}
-  75%  {background-color:green; left:0px; top:3000px;}
-  100% {background-color:red; left:0px; top:0px;}
+  0%   {left:100px; top:90px;}
+  25%  {left:10px; top:890px;}
+  50%  {left:200px; top:0px;}
+  75%  {left:80px; top:175px;}
+  100% {left:75px; top:67px;}
     }
     #mydiv {
   position: absolute;
   z-index: 9;
-  background-image: url('/e639b65e3fa49896517cf063ec7e13e8.jpg');
+  
   text-align: center;
   border: 1px solid #ff0000;
 }
 
 #mydivheader {
+    width: 100px;
+    height: 100px;
   padding: 10px;
   cursor: move;
   z-index: 10;
-  background-color: #ff0000;
   color: #000000;
+  animation-name: hehe;
+  background-size: contain;
+  background-image: url('e639b65e3fa49896517cf063ec7e13e8.jpg');
+  position: relative;
+  top: 0;
 }
+    body {
+        background-image: url('e9a1fc94f3b36348ba98e550bdf4a207.jpg');
+    }
 </style>
 <div id="one">
     This is a block
 </div>
-<div id="two">heheheHA</div>
-<div id="three">EA SPORTS TO THE GAME</div>
+<div id="two"></div>
 <body>
-
+    <div id="mydiv">
+        <div id="mydivheader">AAAAAhhh</div>
+      </div>
     <h1>ANNOYED CUBE</h1>
     
     <p>DONT DRAG ME</p>
     
-    <div id="mydiv">
-      <div id="mydivheader">AAAAAhhh</div>
-    </div>
+    
     
     <script>
     //Make the DIV element draggagle:
@@ -121,3 +136,4 @@ alert('EA Sports... to the GAME!!')
     </script>
     
     </body>
+    <p>this my game i made on scratch https://scratch.mit.edu/projects/822616623</p>
